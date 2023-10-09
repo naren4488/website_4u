@@ -22,9 +22,11 @@ function CoursePage() {
   return (
     <div id="top">
       <div className="coursepage_main-container">
-        <div className="coursePage-banner-container">
-          <h2>Learn Web Devlopment</h2>
-          {/* <FontAwesomeIcon className='coursePage-fontIcon' icon={faLessThan}  size="xs"/> */}
+        <div className="course-hero-image">
+          <div className="coursePage-banner-container">
+            <h2>Learn Web Devlopment</h2>
+            {/* <FontAwesomeIcon className='coursePage-fontIcon' icon={faLessThan}  size="xs"/> */}
+          </div>
         </div>
 
         <div className="coursePage-course-overveiw-wrapper">
@@ -670,17 +672,17 @@ function CoursePage() {
                     maintain websites and web applications, and they can work in
                     a variety of industries. If you are interested in a career
                     in tech or simply want to learn how to create and maintain
-                    your own websites and want to make some amazing projects, then this web development course is a great
-                    option for you.
+                    your own websites and want to make some amazing projects,
+                    then this web development course is a great option for you.
                   </p>
                 </div>
                 <div className="bottom-line">
                   <p>
-                    <span>BOTTOM LINE:</span> You will learn Web Devlopment with in-depth
-                    understanding and you will be able to use it for both
-                    college projects and industrial purposes. You will be able to easily
-                    crack placements with the skills you will learn in this
-                    course.
+                    <span>BOTTOM LINE:</span> You will learn Web Devlopment with
+                    in-depth understanding and you will be able to use it for
+                    both college projects and industrial purposes. You will be
+                    able to easily crack placements with the skills you will
+                    learn in this course.
                   </p>
                 </div>
               </div>
@@ -746,7 +748,12 @@ function CoursePage() {
                 {" "}
                 Register Now{" "}
               </HashLink> */}
-              <a className="btn-1 btn--shimmer" href="https://forms.gle/kGwMV7vY9xmfeZN89">Register Now</a>
+              <a
+                className="btn-1 btn--shimmer"
+                href="https://forms.gle/kGwMV7vY9xmfeZN89"
+              >
+                Register Now
+              </a>
             </div>
             <div className="course-price">
               <button className="course-start">
@@ -755,11 +762,12 @@ function CoursePage() {
               </button>
               <button>
                 <FontAwesomeIcon className="ruppe-icon" icon={faIndianRupee} />
-                5000 <span>on a one-time payment</span>
+                <span> </span> <span>5000</span> <span className="price-button">One-time payment</span>
               </button>
               <button>
                 <FontAwesomeIcon className="ruppe-icon" icon={faIndianRupee} />
-                6000<span> with EMI payment option (1500₹/Month)</span>
+                <span> </span> <span>6000</span> <span className="price-button">with EMI option <br/> ( ₹1500 / Month )</span>
+                
               </button>
             </div>
           </div>

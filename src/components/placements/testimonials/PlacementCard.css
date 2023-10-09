@@ -1,18 +1,20 @@
-.my-card {
-  border: solid 1px orange;
+.placement-card {
+  border: solid 1px #f4dd9f;
   border-radius: 10px;
   width: 90vw;
   margin: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 7rem;
+  background-color: #f3efe2;
 }
 
+/* #FFF9E9 */
 .photo-section {
   position: relative;
   display: flex;
   justify-content: center;
   /* border: solid red; */
   padding: 1rem;
-  border-bottom: solid 0.5px gray;
+
 }
 
 .photo-section > a {
@@ -27,31 +29,97 @@
     right: 0px;
   }
 
-.card-img {
+
+  .placement-card{
+    padding-top: 10px;
+    overflow: hidden;
+  }
+
+.placement-card-img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.card-img > img {
+.placement-card-img > img {
   object-fit: cover;
 }
 
 .linkedin{
-    height: 50px;
+    height: 24px;
 }
 
-.placement-card-footer {
+
+.placement-card-body{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+.placement-card-footer{
+  background-color: #f2e3b9;
+  background-color: rgba(242,227,185, .5);
+  
+
+  /* border: solid red; */
+  height: 70px;
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(230, 229, 229);
-  padding: 1rem;
-  border-radius: 5px;
+  flex-direction: column;
+  
+  align-items: left;
+  justify-content: center;
 }
 
+
+.placement-card-footer>h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 40px;
+  margin-bottom: 16px;
+  margin-top: 18px;
+}
+ 
+
+.salary-box{
+    display: flex;
+    margin-left: 40px;
+    padding-bottom: 8px;
+    
+}
+
+.salary-box>h4{
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* for laptop view */
 @media all and (min-width: 480px) {
-  .my-card {
+  .placement-card {
     width: 33vw;
   }
+
+  .photo-section > a {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+  }
+
+  
 }
