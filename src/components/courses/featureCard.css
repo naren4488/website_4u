@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px;  
+    width: 25rem; 
+    margin: 10px;
+}
+.card h3{
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: orange;
+    top: -10px;
+}
+.card p{
+    text-align: center;
+}
+.list-items{
+    font-size: 1.8rem;
+}
+.card ul{
+    margin-left: 0.4rem;
+}

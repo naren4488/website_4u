@@ -1,0 +1,171 @@
+.about {
+    margin: 10rem 0;
+    min-height: auto;
+}
+
+.about .about-para {
+    font-size: 2rem;
+    font-weight: 320;
+    padding: .65rem 7rem;
+}
+
+@media screen and (max-width:30em) {
+    .about {
+        padding: 20rem 0;
+    }
+}
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+    display: flex;
+    padding: 0 1rem;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: 'Barlow Condensed', sans-serif !important;
+    max-width: 62rem;
+    margin: 5rem auto;
+    align-self: center;
+    margin-bottom: 8rem;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    font-family: 'Abril Fatface', cursive !important;
+    position: relative;
+    /* for pseudos */
+    color: orange;
+    font-size: 5rem;
+    font-weight: normal;
+    line-height: 1;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    word-spacing: 0.7rem;
+}
+
+.diff{
+    color: #00457c;
+}
+
+/* Blockquote right double quotes */
+.blockquote h1:after {
+    content: "";
+    position: absolute;
+    border: 2px solid orange;
+    border-radius: 0 5rem 0 0;
+    width: 6rem;
+    height: 6rem;
+    bottom: -6rem;
+    left: 5rem;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3;
+}
+
+.blockquote h1:before {
+    content: "";
+    position: absolute;
+    width: 8rem;
+    border: 6px solid white;
+    bottom: -3px;
+    left: 5rem;
+    z-index: 2;
+}
+
+/* increase header size after 600px */
+@media screen and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+}
+
+.team-cards {
+    padding: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.snip1515 {
+    flex: 0 1 35rem;
+    margin: 4rem !important;
+
+    position: relative;
+    margin: 1rem;
+    min-width: 23rem;
+    max-width: 31.5rem;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 1.4rem;
+    box-shadow: none !important;
+}
+
+.snip1515 .profile-image {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    padding: 1rem;
+    border: 0.5rem solid orange;
+    border-radius: 1rem;
+}
+
+.snip1515 .profile-image img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.snip1515 figcaption {
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #555;
+    padding: 12.5rem 2.5rem 2.5rem;
+    margin-top: -10rem;
+    display: inline-block;
+}
+
+.snip1515 h3,
+.snip1515 h4,
+.snip1515 p {
+    margin: 0 0 .5rem;
+}
+
+.snip1515 h3 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+.snip1515 h4 {
+    font-size: 1.5rem;
+    color: #8c8c8c;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.snip1515 .icons {
+    text-align: center;
+    width: 100%;
+}
+
+.snip1515 .linkedin {
+    padding: 0.5rem .2rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: normal;
+    opacity: 0.75;
+}
+
+.snip1515 .linkedin:hover {
+    opacity: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}

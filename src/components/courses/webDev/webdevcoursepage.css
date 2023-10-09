@@ -1,0 +1,11 @@
+.feature-card-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.title{
+    text-align: start;
+}
+.titlehr{
+    width: 50% !important;
+}

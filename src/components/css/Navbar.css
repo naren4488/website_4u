@@ -1,0 +1,66 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 3rem;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 15%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    z-index: 100;
+    color: black;
+}
+
+.header .branding{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .branding .brand{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header .branding img{
+    margin: 0 1rem;
+    width:5rem;
+    height:5rem;
+}
+
+.header .sections{
+    display: flex;
+    font-size: 1.9rem;
+    margin:0 0.5rem;
+}
+
+.header .sections .section-name{
+    margin:0 2rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.header .sections .section-name:hover{
+    font-weight: 640;
+}
+
+@media only screen and (max-width: 30em) {
+    .header {
+        flex-direction: column;
+    }
+    .branding{
+        margin: 1rem 0;
+        font-size: 3rem;
+    }
+    .header .sections{
+        font-size: 2.5rem;
+        margin: 1rem 0;
+    }
+}

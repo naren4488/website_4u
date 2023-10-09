@@ -1,0 +1,90 @@
+/* Display sizes
+
+125em   2000px
+75em    1200px
+62.5em  1000px
+50em    800px
+37.5em  600px
+25em    400px
+12.5em  200px 
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+  font-family: 'Source Code Pro', monospace;
+}
+
+section{
+  background-color: white;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.section-heading-container{
+  background-color: rgba(243,243,255);
+}
+
+.section-heading{
+  font-size: 5rem;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 125em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 55em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 12.5em) {
+  html {
+    font-size: 20%;
+  }
+}

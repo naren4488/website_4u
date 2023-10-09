@@ -1,0 +1,83 @@
+.footer-container{
+    background-color: #00457c;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8.5rem 1rem;
+    justify-content: space-around;
+}
+
+.footer .fcontainer{
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.footer .branding{
+    display: flex;
+    /* padding: 0 0 2rem 0; */
+}
+
+.footer .branding h2{
+    padding: 0 1rem;
+    align-self: center;
+}
+
+.footer .branding img{
+    height: 7rem;
+    width: 7rem;
+}
+
+.branding .tagline{
+    font-size: 2rem;
+}
+
+.footer-conatainer-heading{
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.footer .fcontainer .link-name{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.footer .fcontainer .link-name:hover{
+    font-weight: 450;
+    color:#FF8C00;
+}
+
+.arrow{
+    padding: 0 1.5rem 0 0;
+    color: orange;
+}
+
+.brands{
+    padding: 0 1.5rem 0 0;
+}
+
+.footer-container .copyright{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-weight: 800;
+}
+
+@media screen and (max-width:43.75em) {
+    .footer .fcontainer{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:25em) {
+    .footer .fcontainer{
+        max-width: 100%;
+    }
+}

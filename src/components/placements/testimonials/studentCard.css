@@ -1,0 +1,21 @@
+
+.card-container{
+    display: flex;
+    border: 1px solid gray;
+    padding: 2rem 3rem;
+	font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.5);
+    margin: 1rem auto;
+}
+.student-img{
+    height: 100%;
+   border-radius: 5px;
+}
+.content{
+    margin: .8rem;
+    font-size: 1.4rem;
+}

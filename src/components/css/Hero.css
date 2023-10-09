@@ -1,0 +1,202 @@
+.hero {
+    background-color: aliceblue;
+    color: black;
+    padding-top: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+}
+
+.hero .hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 5rem;
+    height: 100%;
+}
+
+.hero .hero-container .hero-content{
+    width: 50%;
+}
+
+.hero .hero-content .hero-about {
+    width: 80%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.hero .hero-container .hero-content .hero-heading {
+    font-size: 4.5rem;
+    padding: 4rem 0;
+    font-weight: 700;
+}
+
+.hero .hero-container .hero-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero .hero-container .hero-image img{
+    width: 50rem;
+}
+
+.check{
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    color: #25d366;
+}
+
+.info-box {
+    background-color: #DD0004;
+    width: fit-content;
+    margin: 0 auto;
+    border-top-right-radius: 1.8rem;
+    border-top-left-radius: 1.8rem;
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    align-self: center;
+    animation: 2s linear infinite show;
+}
+
+@keyframes show {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: auto;
+    }
+}
+
+.info-box .info {
+    padding: 3.5rem 2rem .5rem 2rem;
+    margin: 0;
+    font-size: 2.1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn {
+    margin: 4rem 0 10rem 0;
+    background-color: #FF8C00;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: .7em 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn--shimmer {
+    animation: shimmer 1.5s linear infinite;
+    background-image: linear-gradient(-70deg,
+            rgba(255, 255, 255, 0) 46%,
+            rgba(255, 255, 255, .8) 50%,
+            rgba(255, 255, 255, .8) 52%,
+            rgba(255, 255, 255, 0) 56%);
+    background-size: 400% 100%;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 50%;
+    }
+    30% {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (min-width:125em){
+    .hero .hero-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:75em){
+    .hero .hero-container .hero-content .hero-heading{
+        font-size: 4rem;
+    }
+
+    .hero .hero-container .hero-content .hero-about{
+        font-size: 2rem;
+    }
+
+    .btn{
+        font-size: 2rem;
+    }
+
+    .check{
+        font-size: 2rem;
+    }    
+}
+
+@media screen and (max-width:62.5em){
+    .hero .hero-container{
+        flex-direction: column;
+    }
+
+    .hero .hero-container .hero-image img{
+        display: none;
+    }
+
+    .hero .hero-container .hero-content{
+        width: 100%;
+    }
+
+    .hero .hero-container .hero-content .hero-heading{
+        font-size: 5rem;
+    }
+
+    .hero .hero-container .hero-content .hero-about{
+        font-size: 3.25rem;
+    }
+
+    .btn{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:37.5em){
+    .hero{
+        padding-top: 12rem;
+    }
+
+    .hero .hero-container .hero-content .hero-heading{
+        font-size: 8rem;
+    }
+
+    .hero .hero-container .hero-content .hero-about{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:31.25em){
+    .hero{
+        padding-top: 18rem;
+    }
+
+    .hero .hero-container .hero-content .hero-heading{
+        font-size: 8.5rem;
+    }
+
+    .hero .hero-container .hero-content .hero-about{
+        font-size: 3.5rem;
+    }
+    .header .branding .brand{
+        font-size:3.5rem;
+    }
+}
+
+
+

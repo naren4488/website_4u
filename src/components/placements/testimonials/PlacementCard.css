@@ -1,0 +1,38 @@
+.my-card {
+  border: solid 1px gray;
+  width: 90vw;
+  margin-bottom: 1.5rem;
+}
+
+.photo-section {
+  position: relative;
+  display: flex;
+}
+
+.photo-section > a {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+}
+
+.card-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-img > img {
+  object-fit: cover;
+}
+
+.placement-card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (min-width: 480px) {
+  .my-card {
+    width: 33vw;
+  }
+}

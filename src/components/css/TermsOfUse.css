@@ -1,0 +1,22 @@
+.termsofuse{
+    padding: 10rem 0;
+    min-height: auto;
+}
+
+.terms-para{
+    font-size: 2rem;
+    padding: 3rem 5rem;
+    font-weight: 500;
+}
+
+.terms-point{
+    font-size: 2rem;
+    padding: 1rem 6rem;
+    font-weight: 450;
+}
+
+@media screen and (max-width:30em){
+    .termsofuse{
+        padding:20rem 0;
+    }
+}

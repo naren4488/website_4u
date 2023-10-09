@@ -1,0 +1,40 @@
+.top-heading {
+  text-align: center;
+}
+
+.top-highlight {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.bottom-highlight {
+  display: flex;
+  justify-content: space-evenly;
+}
+.highlight-card {
+  width: fit-content;
+  border-radius: 8px;
+  padding: 1rem;
+  border: solid 0.6px gray;
+}
+
+.highlight-card > p {
+  margin: 0px;
+}
+
+@media all and (min-width: 480px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .placement-grid {
+    /* position: absolute;
+      left:0px;
+      right: 0px; */
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+  }
+}

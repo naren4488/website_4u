@@ -1,0 +1,82 @@
+.carousel{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* border: 2px solid black; */
+}
+.reviews{
+    min-height: auto;
+}
+
+.rbd-review-slider .rbd-preloader {
+	width: 3.6rem;
+	height: 3.6rem;
+	margin: 0 auto;
+}
+
+.rbd-review-slider .rbd-review {
+	padding: 2rem 3rem;
+	font-size: 1.8rem;
+	line-height: 1.612;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.5);
+	margin: 3rem auto;
+	overflow: hidden;
+	background: #fff;
+	max-width: 60rem;
+}
+
+.rbd-review-slider .rbd-review.rbd-first {
+	display: block;
+}
+
+.rbd-review-slider .rbd-heading {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.rbd-review-slider svg {
+	fill: #ffbb58;
+	width: 2.4rem;
+	margin-right: 1px;
+}
+
+.rbd-review-slider .rbd-review-meta {
+	font-size: 1.2rem;
+	color: #565656;
+	margin-top: 1.2rem;
+	text-align: center;
+}
+
+.rbd-review-slider .rbd-gravatar {
+	border-radius: 100%;
+	width: 10rem !important;
+	height: 10rem;
+	float: left;
+	margin-right: 1.5rem;
+	border: 6px solid transparent;
+	box-shadow: 0 3px 12px -2px rgba(0, 0, 0, 0.35);
+}
+
+.rbd-footing {
+	margin: 2rem 0 0;
+	text-align: center;
+}
+
+
+.placement-page-link{
+	font-size: 2rem;
+    color: rgb(0, 128, 255);
+    text-decoration: none;
+    font-weight: 500;
+	text-align: center;
+}
+
+@keyframes round {
+	25% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 0;
+	}
+}

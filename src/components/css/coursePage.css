@@ -1,0 +1,410 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.coursepage_main-container .coursePage-banner-container{
+    background-image: url("../../assets/images/971.webp");
+    /* background-color: aliceblue; */
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.coursePage-banner-container h2{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.coursePage-fontIcon{
+    color: rgb(256, 256, 256,0.7);
+    font-size:2.3rem;
+    transform: rotate(-90deg);
+
+}
+
+.coursePage-course-overveiw-wrapper{
+    padding-top:5rem;
+    background-color: #F3F8F9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.coursePage-course-overveiw-wrapper .coursePage-overveiw-col1{
+    /* grid-area: b; */
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 68.6%;
+    margin-bottom: 5rem;
+    box-shadow: 0 0 30px #eee;
+    background-color: #FFFFFF;
+}
+
+.coursePage-course-overveiw-wrapper .coursePage-overveiw-col2{
+    /* grid-area: c; */
+    width: 25%;
+}
+
+.coursePage-course-overveiw-wrapper .coursePage-overveiw-col1 .coursePage-tabs{
+    border: none;
+    padding: 1.8rem 2rem;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition-property: background-color;
+    transition-duration: 550ms;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(98,98,98);
+    border: rgba(98,98,98,0.15) 1px solid;
+    width:25%;
+}
+
+.coursePage-course-overveiw-wrapper .coursePage-overveiw-col1 .coursePage-tabs:hover{
+    background-color: orange;
+    color: white;
+}
+
+.coursePage-course-overveiw-wrapper .coursePage-overveiw-col1 .coursePage-active-tabs  {
+    background: orange;
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+
+.coursePage-content{
+    display: none;
+    
+}
+
+.coursepage-active-content{
+    display: block;
+    width: 90%;
+}
+
+.coursepage-active-content .coursePage-text-wrapper{
+    padding: 4rem 6rem;
+    width: 100%;
+    font-size: 2.1rem;
+    
+}
+
+.coursepage-active-content .coursePage-text-wrapper p{
+    padding: 1rem 0;
+    line-height: 1.7;
+    color: rgba(98,98,98);
+
+}
+
+.coursepage-active-content .coursePage-text-wrapper h3{
+    font-size: 2.7rem;
+    padding: 1rem 0;
+    line-height: 1.7;
+}
+
+.coursepage-active-content .coursePage-what-youll-learn h3{
+    padding: 1rem 0;
+    font-size: 2.6rem;
+}
+
+.coursepage-active-content .coursePage-what-youll-learn ul li{
+    padding: 0.4rem 0 ;
+    line-height: 1.7;
+    list-style-type: none;
+    color: rgba(98,98,98);
+
+}
+
+.coursepage-active-content .coursePage-what-youll-learn ul li::before{
+    content: "\2713";
+    color: #00457C; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    padding-right:0.8rem;
+}
+
+/* cirriculum */
+.show-more-course-contents{
+    display: none;
+}
+
+.active-course-content{
+    display: block;
+}
+
+.course-contents{
+    display: flex;
+    /* justify-content: space-around; */
+    padding:2.5rem 2rem;
+    background-color: #F7F7F7;
+    border: rgba(98,98,98,0.15) 1.2px solid;
+    box-shadow: 15px 10px 30px #eee;
+    border-radius: 0.7rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: black 2px solid;
+}
+
+.course-contents .serial-no{
+    color: orange;
+}
+
+.section-title{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title p{
+    font-size:1.8rem;
+    font-weight: 600;
+}
+
+.section-title .section-description p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.show-more-button-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.show-more-button-container button{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00457C;
+    padding-top: 2rem;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.coursePage-teaxt-wrapper{
+    padding: 3rem;
+}
+
+.taeching-mode h3{
+    padding:1rem 0;
+    font-size: 2.2rem;
+    color: black;
+}
+
+.taeching-mode ul li{
+    line-height: 1.7;
+    list-style-type: none;
+    font-size: 1.8rem;
+    color: rgba(98,98,98);
+}
+
+.taeching-mode ul li::before{
+    content: "\2713";
+    color: #00457C; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    padding-right:0.8rem;
+}
+
+.taeching-mode,
+.duration,
+.class-timmings{
+    padding: 2rem;
+}
+
+.duration ul li{
+    line-height: 1.7;
+    list-style-type: none;
+    font-size: 1.8rem;
+    color: rgba(98,98,98);
+}
+
+.duration ul li::before{
+    content: "\2713";
+    color: #00457C; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    padding-right:0.8rem;
+}
+
+.class-timmings ul li{
+    line-height: 1.7;
+    list-style-type: none;
+    font-size: 1.8rem;
+    color: rgba(98,98,98);
+}
+
+.class-timmings ul li::before{
+    content: "\2713";
+    color: #00457C; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    padding-right:0.8rem;
+}
+
+.features-wrapper{  
+    display: flex;
+    justify-content: center;
+}
+
+.faetures-container{
+    width: 90%;
+    padding-top: 9rem;
+    
+}
+
+.course-features-image{
+    width: 100%;
+}
+
+.why-shouldyou-take-wrapper{
+    padding: 3.8rem;
+}
+
+.why-shouldyou-take-wrapper h3{
+    margin: 1rem 0;
+    font-size: 2.4rem;
+}
+
+.why-shouldyou-take-wrapper p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    letter-spacing: 0.07rem;
+    color:rgba(98,98,98);
+}
+
+.bottom-line{
+    padding: 2.8rem;
+}
+
+.bottom-line span{
+    color:orange;
+}
+
+.bottom-line p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#00457C;
+}
+
+/* column 2 */
+.course-overveiw-features{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 30px #eee;
+    border-radius: 0.5rem;
+}
+
+.course-overveiw-features ul{
+    padding: 0;
+}
+
+.course-overveiw-features ul li{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+}
+
+.course-overveiw-features ul li .feature-icon{
+    color:orange;
+    font-size:1.85rem;
+    /* padding: 0 2rem; */
+}
+
+.course-overveiw-features ul li .feature-text{
+    padding: 1rem;
+    font-size: 1.85rem;
+}
+
+.course-overveiw-features ul li .featureValue{
+    padding: 1rem;
+    font-size: 1.85rem;
+    text-align: right;
+}
+
+.course-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.course-price button{
+    width: 70%;
+    border: 1.5px solid orange;
+    background-color: #FFFFFF;
+    padding: 2rem 1.5rem;
+    font-size: 1.95rem;
+    font-weight: 600;
+    border-radius: 0.65rem;
+    margin: 2rem 0;
+    transition-property: background-color color;
+    transition-duration: 550ms;
+    cursor: default;
+}
+
+/* .course-price button:hover{
+    background-color: orange;
+    color: white;
+} */
+
+.course-price button .ruppe-icon{
+    color: orange;
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.course-price button span{
+    font-size:1.1rem;
+}
+
+.course-price .course-start{
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.register-button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1{
+    margin-top: 5rem;
+    background-color: orange;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 1.5rem 5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-1:hover{
+    color:white;
+}
+
+.phase-heading{
+    font-size: 3.5rem;
+    margin:2rem 0;
+    text-align: center;
+    color: orange;
+}

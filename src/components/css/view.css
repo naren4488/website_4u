@@ -1,0 +1,26 @@
+.view-page{
+    padding: 5rem 10rem;
+    min-height: auto;
+}
+
+thead td{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin:0 1.5rem;
+}
+
+tbody td{
+    font-size:1.2rem;
+    text-align: center;
+}
+
+.true{
+    display: none;
+}
+
+@media screen and (max-width:30em) {
+    .view-page{
+        padding: 20rem 10rem;
+    }    
+}
