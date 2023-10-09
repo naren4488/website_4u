@@ -7,6 +7,7 @@ import Courses from './Courses';
 import Blog from "./Blog";
 
 export default function Home() {
+
     return (
     <>
         <Hero/>

@@ -17,6 +17,7 @@ import CoursePageWebDev from "./components/courses/webDev/coursePageWebDev";
 // import DSA from "./components/coursePageDSA";
 
 function App() {
+
   return (
     <div className="App">
       <div id="top"></div>
