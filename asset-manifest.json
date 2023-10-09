@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/website_4u/static/css/main.493b008d.css",
+    "main.js": "/website_4u/static/js/main.2280cd3a.js",
+    "static/media/featuresDsa.png": "/website_4u/static/media/featuresDsa.c68098f9ad2eb19dc6c3.png",
+    "static/media/971.webp": "/website_4u/static/media/971.3c698469e7480f9c4c34.webp",
+    "static/media/logo_white.webp": "/website_4u/static/media/logo_white.d4dd268b8435cb05067c.webp",
+    "static/media/usha vg.webp": "/website_4u/static/media/usha vg.9298186533170f89af55.webp",
+    "static/media/Chandra kiran Kona.webp": "/website_4u/static/media/Chandra kiran Kona.0e5e158c5eb853b6ca4d.webp",
+    "static/media/nikhil.webp": "/website_4u/static/media/nikhil.125ff252ddc8cb939801.webp",
+    "static/media/featuresSemi.webp": "/website_4u/static/media/featuresSemi.bdef101ee82b822ed4bd.webp",
+    "static/media/narendra.webp": "/website_4u/static/media/narendra.c7db9b492053269df846.webp",
+    "static/media/25331.webp": "/website_4u/static/media/25331.6b32dcc4111136edea2b.webp",
+    "static/media/community.webp": "/website_4u/static/media/community.c26b13ca621539f32627.webp",
+    "static/media/Shivaraj Karjagi.webp": "/website_4u/static/media/Shivaraj Karjagi.f45812988caa21f4a04b.webp",
+    "static/media/keerthana.webp": "/website_4u/static/media/keerthana.6286a4f8489c781dfa15.webp",
+    "static/media/kushal.webp": "/website_4u/static/media/kushal.bdb4da467a95d6ea922d.webp",
+    "static/media/Puttaradhya.webp": "/website_4u/static/media/Puttaradhya.80f076d68b36ed0c9ae3.webp",
+    "static/media/Nikhil J.webp": "/website_4u/static/media/Nikhil J.020140cbb610ae7c1603.webp",
+    "static/media/confused.gif": "/website_4u/static/media/confused.19d226f42cf8ae3c4a14.gif",
+    "static/media/Chandana R.webp": "/website_4u/static/media/Chandana R.5b09df0b90dfedb89267.webp",
+    "static/media/featuresNormal.webp": "/website_4u/static/media/featuresNormal.80b5dab1d8ab633ff1fa.webp",
+    "static/media/akash.webp": "/website_4u/static/media/akash.fcc3970e9b5d2cbceb44.webp",
+    "static/media/Hitesh Kumawat.webp": "/website_4u/static/media/Hitesh Kumawat.1c0e9d6be63501d592c0.webp",
+    "static/media/background.webp": "/website_4u/static/media/background.02844aa657957b842340.webp",
+    "static/media/logo-removebg.webp": "/website_4u/static/media/logo-removebg.a7f0022ce25805b8b2ec.webp",
+    "static/media/background2.webp": "/website_4u/static/media/background2.533b75cd2186579e9c8f.webp",
+    "index.html": "/website_4u/index.html",
+    "main.493b008d.css.map": "/website_4u/static/css/main.493b008d.css.map",
+    "main.2280cd3a.js.map": "/website_4u/static/js/main.2280cd3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.493b008d.css",
+    "static/js/main.2280cd3a.js"
+  ]
+}
