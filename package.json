@@ -1,4 +1,5 @@
 {
+  "homepage": "https://naren4488.github.io/website_4u",
   "name": "4uacademy",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" ,
     "heroku-prebuild": "npm install -g serve",
     "start": "serve -s build",
     "build": "react-scripts build",
@@ -47,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
