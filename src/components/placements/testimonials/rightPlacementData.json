@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Kushal T H",
+      "salary": "10 LPA",
+      "review": "The best part is you have your alumnus as your mentors so you get the best of the best. Then the time table flexible according to your college schedule. The kind of follow-up on each one of the student is incredible!! ",
+      "company": "Updaing...",
+      "image": "",
+      "linkedIn": "https://www.linkedin.com/in/kushal-t-h-03349416b/"
+    },
+  
+    {
+      "name": "Preethi V R",
+      "image": "",
+      "salary": "6.8 LPA",
+      "company": "Alstom",
+      "linkedIn": "",
+      "review": "Teaching was good. Assignments given helped whenever I missed submitting  the assignment bhaiya used to text me and kept on reminding me until I submit this made me to keep myself in track with the classes."
+    },
+  
+    {
+      "name": "Shiva B B",
+      "image": "",
+      "salary": "9 LPA",
+      "company": "H P",
+      "linkedIn": "",
+      "review": "This course is different from other online courses.The way they interact is too good. This course helped me to start my placements preparation."
+    },
+    {
+      "name": "Chendu ",
+      "image": "",
+      "salary": "4.5 LPA",
+      "company": "Accenture",
+      "linkedIn": "",
+      "review": "I enrolled in JAVA course. I really enjoyed this course. Narendra is a great instructor and I felt I learnt a lot in this course. Great teacher. The teaching of the material was really good"
+    },
+    {
+        "name": "Chinmai ",
+        "image": "",
+        "salary": "5 LPA",
+        "company": "Deloitte Digital",
+        "linkedIn": "",
+        "review": "JAVA is a new language for me. Since I didn't knew anything about it, I was like, can I learn??But as I took up this course eventually I came to understand about its importance .Overall this course is excellent-each day:discussion of doubts,completion of planned part of topic with some good examples, questions that can be asked  for Interview from that particular topic and so on. "
+      }
+  ]
