@@ -7,24 +7,26 @@ import rightPlacementData from "./rightPlacementData.json";
 import shivu_img from "./../../../assets/images/shivaraj.jpeg";
 import chandana_img from "./../../../assets/images/Chandana R.webp";
 import nishant_img from "./../../../assets/images/nishant.jpeg";
-import sumana_img from "./../../../assets/images/sumana.jpeg";
+import sumana_img from "./../../../assets/images/sumana.jpg";
 import kushal_img from "./../../../assets/images/kushal.webp";
 import preethi_img from "./../../../assets/images/preethi.jpg";
 import male_img from "./../../../assets/images/male_avatar.png";
-// import shivu_img from "./../../../assets/images/shiva.jpeg"
+import chendu_img from "./../../../assets/images/chendu.jpg"
+import nikhil_img from "./../../../assets/images/nikhil_J.jpeg";
+import shiva_img from "./../../../assets/images/shiva.jpeg";
 
 export default function Narendra() {
   // console.log("printing from placement js", placementData);
   placementData[0].image = shivu_img;
-  placementData[2].image = male_img;
+  placementData[2].image = nikhil_img;
   placementData[1].image = chandana_img;
   placementData[3].image = nishant_img;
   placementData[4].image = sumana_img;
   // placementData[0].image = shivu_img;
   rightPlacementData[0].image = kushal_img;
   rightPlacementData[1].image = preethi_img;
-  rightPlacementData[2].image = male_img;
-  rightPlacementData[3].image = male_img;
+  rightPlacementData[2].image = shiva_img;
+  rightPlacementData[3].image = chendu_img;
   rightPlacementData[4].image = male_img;
 
   // console.log("printing from placement js", placementData);

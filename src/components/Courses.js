@@ -30,7 +30,7 @@ export default function Courses() {
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">Next Batch</h6>
-                            <p className="course-outcomes-content">28th November</p>
+                            <p className="course-outcomes-content">15th October</p>
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">What you'll learn?</h6>
@@ -61,7 +61,7 @@ export default function Courses() {
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">Next Batch</h6>
-                            <p className="course-outcomes-content">28th November</p>
+                            <p className="course-outcomes-content">Will be updated soon</p>
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">What you'll learn?</h6>
