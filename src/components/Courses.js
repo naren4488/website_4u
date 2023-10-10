@@ -1,7 +1,7 @@
 import React from 'react';
 import "./css/Courses.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleCheck, faCodeMerge} from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck, faCodeMerge,faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
 import {faJava } from '@fortawesome/free-brands-svg-icons';
 
@@ -17,7 +17,7 @@ export default function Courses() {
                 <div className="course-card">
                     <div className="course-card-header skyblue">
                         <h3 className="course-card-heading">Complete Web Development course</h3>
-                        <FontAwesomeIcon icon={faJava}/>
+                        <FontAwesomeIcon icon={faLaptopCode}/>
                     </div>
                     <div className="course-card-body">
                         <div className="course-requirments">

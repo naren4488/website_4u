@@ -180,7 +180,7 @@ function CoursePage() {
                       <h3>04</h3>
                     </div>
                     <div className="section-title">
-                      <p>CSS: Basics, fonts, icons, positions, container</p>
+                      <p>CSS: Basics, fonts, icons, positions, container, Flex-box and Grid layout</p>
                     </div>
                   </div>
                   <div
@@ -195,7 +195,7 @@ function CoursePage() {
                         <h3>05</h3>
                       </div>
                       <div className="section-title">
-                        <p>CSS3: Flex-box and Grid layout</p>
+                        <p>CSS3: </p>
                       </div>
                     </div>
                   </div>
