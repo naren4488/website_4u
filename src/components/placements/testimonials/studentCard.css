@@ -1,9 +1,8 @@
-
 .card-container{
     display: flex;
     border: 1px solid rgb(220, 181, 107);
     padding: 2rem 3rem;
-	font-size: 1.8rem;
+    font-size: 1.8rem;
     justify-content: center;
     align-items: center;
     max-width: 60rem;
@@ -15,49 +14,32 @@
     max-height: 25rem;
     position: relative;
 }
-.img-box{
-    display: flex;
-    min-width:25%;
-    max-width: 25%;
-    height: 12rem;
-    /* border: 2px solid black; */
-    overflow: hidden;
-}
-.student-img{
-    
-   border-radius: 5px;
-   width: 100%;
-   object-fit: cover;
-}
-.content{
-    display: inline;
-    text-align: start;
-    margin-left: 2rem;
-    font-size: 1.4rem;
-}
-.bar{
-    margin-top:  0;
-    margin-bottom:  0;
-    
-}
-.upper{
-    text-align: center;
-    
-}
-.company-name{
-    text-align: center;
-}
-.upper a{
-    text-decoration: none;
-    color: rgb(34, 29, 29);
-}
+.card-left-section{
+    width: 40%;
+    margin-right: 2rem;
 
-.quote{
-   color: rgb(220, 181, 107);
+}
+.card-left-section a{   
+        text-decoration: none;
+        color: rgb(34, 29, 29);   
+}
+.quote {
+    color: rgb(220, 181, 107);
     position: absolute;
     width: 4rem;
     height: 5rem;
-    top:-1rem;
+    top: -1rem;
     left: 15rem;
+  }
 
-}
+  .student-img{
+    border-radius: 5px;
+  }
+  .bar {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-container p{
+    font-size: 1.5rem;
+  }
