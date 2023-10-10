@@ -42,7 +42,7 @@ export default function Narendra() {
 
         <div className="top-highlight">
           <div className="highlight-card card-highlight">
-            <p>4 Program</p>
+            <p>4 Programs</p>
           </div>
 
           <div className="highlight-card card-highlight">

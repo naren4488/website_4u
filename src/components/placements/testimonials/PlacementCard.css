@@ -113,6 +113,8 @@
 @media all and (min-width: 480px) {
   .placement-card {
     width: 33vw;
+    position: relative;
+    height: 410px;
   }
 
   .photo-section > a {
@@ -120,6 +122,14 @@
     bottom: 20px;
     right: 25%;
   }
+
+  .placement-card-footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
 
   
 }

@@ -116,14 +116,15 @@ function CoursePage() {
                         Applications.
                       </li>
                       <li>
-                        Mega Projects: Flipkart, MakeMyTrip, Weather App,
-                        Magma-3D
+                        Mega Projects: Amazon (E-commerce), MakeMyTrip
+                        (Travel-booking), Weather App, Magma-3D (Smooth animated
+                        website)
                       </li>
                       <li>How to use Git, Github and Hosting your websites.</li>
                       <li>How to build a resume.</li>
                       <li>
                         How to give your best in interviews with the help of
-                        mock interviews.
+                        interview preparation and mock interviews.
                       </li>
                     </ul>
                   </div>
@@ -162,8 +163,8 @@ function CoursePage() {
                     </div>
                     <div className="section-title">
                       <p>
-                        Tool and software setup : Understanding the Browser
-                        engine and Devloper tools
+                        Tools and Software setup : Understanding the browser
+                        engine and devloper tools
                       </p>
                     </div>
                   </div>
@@ -172,7 +173,7 @@ function CoursePage() {
                       <h3>03</h3>
                     </div>
                     <div className="section-title">
-                      <p>Html5 introduction boilerplate template</p>
+                      <p>HTML 5</p>
                     </div>
                   </div>
                   <div className="course-contents">
@@ -180,7 +181,10 @@ function CoursePage() {
                       <h3>04</h3>
                     </div>
                     <div className="section-title">
-                      <p>CSS: Basics, fonts, icons, positions, container</p>
+                      <p>
+                        CSS: Basics, Selectors, Box Model, Fonts, Flexbox,
+                        Navbar, Grid layout, Positioning
+                      </p>
                     </div>
                   </div>
                   <div
@@ -195,7 +199,10 @@ function CoursePage() {
                         <h3>05</h3>
                       </div>
                       <div className="section-title">
-                        <p>CSS3: Flex-box and Grid layout</p>
+                        <p>
+                          Advance CSS : Animations, Media Queries, Responsive
+                          Design, Bootstrap
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -211,9 +218,7 @@ function CoursePage() {
                         <h3>06</h3>
                       </div>
                       <div className="section-title">
-                        <p>
-                          Advance CSS : Animations, Media Queries, responsive
-                        </p>
+                        <p>Git and Github</p>
                       </div>
                     </div>
                   </div>
@@ -230,8 +235,8 @@ function CoursePage() {
                       </div>
                       <div className="section-title">
                         <p>
-                          CSS libraries: Class Based Css - Bootstrap,
-                          TailwindCSS
+                          Project - 1 (MakeMyTrip clone - Travel booking
+                          website)
                         </p>
                       </div>
                     </div>
@@ -249,7 +254,8 @@ function CoursePage() {
                       </div>
                       <div className="section-title">
                         <p>
-                          Project 1: Clone of a real life website & Git, Github
+                          Javascipt (Basics - Datatypes, Variables, Operators,
+                          Loops, Functions)
                         </p>
                       </div>
                     </div>
@@ -266,10 +272,7 @@ function CoursePage() {
                         <h3>09</h3>
                       </div>
                       <div className="section-title">
-                        <p>
-                          Introduction to Javascript: exicution context and call
-                          Stack in Browser
-                        </p>
+                        <p>Strings, Arrays & Objects</p>
                       </div>
                     </div>
                   </div>
@@ -286,8 +289,8 @@ function CoursePage() {
                       </div>
                       <div className="section-title">
                         <p>
-                          Javascipt datatypes, variables, Operators, basic
-                          questions
+                          Objects destructuring, Arrow functions, Scope,
+                          Hoisting, Callbacks
                         </p>
                       </div>
                     </div>
@@ -304,9 +307,7 @@ function CoursePage() {
                         <h3>11</h3>
                       </div>
                       <div className="section-title">
-                        <p>
-                          Hoisting in javascript, Conditional and loops in js
-                        </p>
+                        <p>DOM Manipulation </p>
                       </div>
                     </div>
                   </div>
@@ -322,7 +323,7 @@ function CoursePage() {
                         <h3>12</h3>
                       </div>
                       <div className="section-title">
-                        <p> Arrays & Objects</p>
+                        <p>JSON, REST APIs, Promises and Async-await</p>
                       </div>
                     </div>
                   </div>
@@ -336,54 +337,6 @@ function CoursePage() {
                     <div className="course-contents">
                       <div className="serial-no">
                         <h3>13</h3>
-                      </div>
-                      <div className="section-title">
-                        <p> Functions, Callback Functions & Callback hell</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>14</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Promises in Javascript : Async & await </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>15</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>DOM Manipulation</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>16</h3>
                       </div>
                       <div className="section-title">
                         <p>
@@ -401,10 +354,63 @@ function CoursePage() {
                   >
                     <div className="course-contents">
                       <div className="serial-no">
+                        <h3>14</h3>
+                      </div>
+                      <div className="section-title">
+                        <p>Form Handling, Local Storage </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={
+                      showMore
+                        ? "show-more-course-contents"
+                        : "show-more-course-contents active-course-content"
+                    }
+                  >
+                    <div className="course-contents">
+                      <div className="serial-no">
+                        <h3>15</h3>
+                      </div>
+                      <div className="section-title">
+                        <p>Error handling in JS: try, catch, finally</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={
+                      showMore
+                        ? "show-more-course-contents"
+                        : "show-more-course-contents active-course-content"
+                    }
+                  >
+                    <div className="course-contents">
+                      <div className="serial-no">
+                        <h3>16</h3>
+                      </div>
+                      <div className="section-title">
+                        <p>Project 2: Amazon Clone (E-commerce website) </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className={
+                      showMore
+                        ? "show-more-course-contents"
+                        : "show-more-course-contents active-course-content"
+                    }
+                  >
+                    <div className="course-contents">
+                      <div className="serial-no">
                         <h3>17</h3>
                       </div>
                       <div className="section-title">
-                        <p>Class Project: 2 </p>
+                        <p>
+                          Accordions and Carousel, OOP, Functional Programming,
+                          Linux
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -420,7 +426,7 @@ function CoursePage() {
                         <h3>18</h3>
                       </div>
                       <div className="section-title">
-                        <p>Map, Filter, Reduce methods</p>
+                        <p>Project 3: Weather App</p>
                       </div>
                     </div>
                   </div>
@@ -436,7 +442,10 @@ function CoursePage() {
                         <h3>19</h3>
                       </div>
                       <div className="section-title">
-                        <p>Import & export Js Modules</p>
+                        <p>
+                          Project 4: Magma 3D : Smooth animation scrolling
+                          website
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -452,122 +461,11 @@ function CoursePage() {
                         <h3>20</h3>
                       </div>
                       <div className="section-title">
-                        <p>Error handling in Js: try, catch, finally</p>
+                        <p>Interview Preparation Module</p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>21</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Rest Api</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>21</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Project 1: Flipkart Clone </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>22</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Project 2: MakeMyTrip Clone</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>23</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Project 3: Weather Clone</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>24</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Project 4: Magma 3D : animated</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>25</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Hosting or deployment of projects</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={
-                      showMore
-                        ? "show-more-course-contents"
-                        : "show-more-course-contents active-course-content"
-                    }
-                  >
-                    <div className="course-contents">
-                      <div className="serial-no">
-                        <h3>26</h3>
-                      </div>
-                      <div className="section-title">
-                        <p>Resume Building : Mentorship</p>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="show-more-button-container">
                     <button onClick={() => toggleShow()}>{showStatus}</button>
                   </div>
@@ -586,7 +484,7 @@ function CoursePage() {
                     <h3>Teaching mode</h3>
                     <ul>
                       <li>
-                        Online live session on the zoom / Microsoft Teams app.
+                        Online live session on the Zoom / Microsoft Teams app.
                       </li>
                       <li>
                         Also recorded sessions for live classes if you missed
@@ -601,7 +499,7 @@ function CoursePage() {
                       <li>
                         1 hour{" "}
                         <span>
-                          Including assignment & doubts discussion at the
+                          including assignment & doubts discussion at the
                           beginning and end of every class.
                         </span>
                       </li>
@@ -610,7 +508,7 @@ function CoursePage() {
                   <div className="class-timmings">
                     <h3>Class Timming</h3>
                     <ul>
-                      <li>9 pm to 10 pm (3 days a week).</li>
+                      <li>9 pm to 10 pm (3 days / week).</li>
                       <li>Alternate days mostly(Flexible with schedule).</li>
                     </ul>
                   </div>
@@ -633,7 +531,7 @@ function CoursePage() {
                     /> */}
 
                     <h2 className="title">
-                      Complete Web Devlopment Course : Project Based
+                      Complete Web Devlopment Course : Project Based Learning
                     </h2>
                     <hr className="titlehr" />
                     <div className="feature-card-conatiner">
@@ -762,12 +660,15 @@ function CoursePage() {
               </button>
               <button>
                 <FontAwesomeIcon className="ruppe-icon" icon={faIndianRupee} />
-                <span> </span> <span>5000</span> <span className="price-button">One-time payment</span>
+                <span> </span> <span>5000</span>{" "}
+                <span className="price-button">One-time payment</span>
               </button>
               <button>
                 <FontAwesomeIcon className="ruppe-icon" icon={faIndianRupee} />
-                <span> </span> <span>6000</span> <span className="price-button">with EMI option <br/> ( ₹1500 / Month )</span>
-                
+                <span> </span> <span>6000</span>{" "}
+                <span className="price-button">
+                  with EMI option <br /> ( ₹1500 / Month )
+                </span>
               </button>
             </div>
           </div>
