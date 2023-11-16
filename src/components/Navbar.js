@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="sections">
           <NavHashLink to="/#hero" smooth activeStyle={{ color: 'orange' }} className='section-name'>Home</NavHashLink>
           <NavHashLink to="/#course" smooth activeStyle={{ color: 'orange' }} className='section-name'>Courses</NavHashLink>
-          <NavHashLink to="/#testimonial" smooth activeStyle={{ color: 'orange' }} className='section-name'>Achivements</NavHashLink>
+          <NavHashLink to="/Narendra/#top" smooth activeStyle={{ color: 'orange' }} className='section-name'>Achivements</NavHashLink>
           <NavHashLink to="/#blog" smooth activeStyle={{ color: 'orange' }} className='section-name'>Blog</NavHashLink>
           <HashLink className='section-name' to='/about#top'>About</HashLink>
         </div>
