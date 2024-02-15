@@ -1,6 +1,9 @@
 import React from "react";
 import "./PlacementCard.css";
 import linkedIn_image from "./../../../assets/images/linkedin_logo.png";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 
@@ -23,7 +26,7 @@ export default function PlacementCard({
 
           <a href={linkedIn}>
             <div className="linkedin">
-              <img src={linkedIn_image} alt={name} height="100%" width="100%" />
+            <FontAwesomeIcon className="linkedin" icon={faLinkedin} />{" "}
             </div>
           </a>
         </div>

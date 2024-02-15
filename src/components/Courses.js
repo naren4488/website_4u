@@ -18,7 +18,7 @@ export default function Courses() {
       <div className="course-cards-container">
         {/* Python course */}
         <div className="course-card">
-          <div className="course-card-header yellow">
+          <div className="course-card-header skyblue">
             <h3 className="course-card-heading">
               Python for All <br /> course
             </h3>
@@ -44,7 +44,7 @@ export default function Courses() {
             </div>
             <div className="course-outcomes">
               <h6 className="course-outcomes-heading">Next Batch</h6>
-              <p className="course-outcomes-content">27th November</p>
+              <p className="course-outcomes-content">29th November</p>
             </div>
             <div className="course-outcomes">
               <h6 className="course-outcomes-heading">What you'll learn?</h6>
@@ -65,7 +65,7 @@ export default function Courses() {
 
         {/* Web Develoment */}
         <div className="course-card">
-          <div className="course-card-header skyblue">
+          <div className="course-card-header orange">
             <h3 className="course-card-heading">
               Complete Web Development course
             </h3>

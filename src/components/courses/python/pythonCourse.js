@@ -503,6 +503,23 @@ function PythonCourse() {
                     </div>
                   </div>
 
+                  <div
+                    className={
+                      showMore
+                        ? "show-more-course-contents"
+                        : "show-more-course-contents active-course-content"
+                    }
+                  >
+                    <div className="course-contents">
+                      <div className="serial-no">
+                        <h3>24</h3>
+                      </div>
+                      <div className="section-title">
+                        <p>Application of python</p>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="show-more-button-container">
                     <button onClick={() => toggleShow()}>{showStatus}</button>
                   </div>
@@ -697,7 +714,7 @@ function PythonCourse() {
             <div className="course-price">
               <button className="course-start">
                 {" "}
-                <span>Batch starts on</span> <br /> 27th November 2023{" "}
+                <span>Batch starts on</span> <br /> 29th November 2023{" "}
               </button>
               <button>
                 <span> Course Fee </span>

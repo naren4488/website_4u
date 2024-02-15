@@ -14,6 +14,7 @@ import male_img from "./../../../assets/images/male_avatar.png";
 import chendu_img from "./../../../assets/images/chendu.jpg"
 import nikhil_img from "./../../../assets/images/nikhil_J.jpeg";
 import shiva_img from "./../../../assets/images/shiva.jpeg";
+import chinmai from "./../../../assets/images/chinmai.webp"
 
 export default function Narendra() {
   // console.log("printing from placement js", placementData);
@@ -27,7 +28,7 @@ export default function Narendra() {
   rightPlacementData[1].image = preethi_img;
   rightPlacementData[2].image = shiva_img;
   rightPlacementData[3].image = chendu_img;
-  rightPlacementData[4].image = male_img;
+  rightPlacementData[4].image = chinmai;
 
   // console.log("printing from placement js", placementData);
   return (

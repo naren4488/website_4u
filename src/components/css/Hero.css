@@ -52,14 +52,13 @@
 .info-box {
     background-color: #DD0004;
     width: fit-content;
-    margin: 0 auto;
+    margin:  auto;
     border-top-right-radius: 1.8rem;
     border-top-left-radius: 1.8rem;
     position: absolute;
     bottom: 0;
-    height: 0;
+
     align-self: center;
-    /* animation: 2s linear infinite show; */
 }
 
 @keyframes show {
