@@ -1,11 +1,13 @@
 import React from "react";
 import "./css/About.css";
 import nikhil from "../assets/images/nikhil.webp";
+import nitish from "../assets/images/nitish.jpeg";
 import narendra from "../assets/images/narendra.webp";
 import kushal from "../assets/images/kushal.webp";
 import jitesh from "../assets/images/jitesh.png";
 import yogeshwar from "../assets/images/yogeshwar.jpeg";
 import gopinath from "../assets/images/gopinatha.webp";
+import yash from "../assets/images/yash.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -53,41 +55,16 @@ export default function About() {
       </p>
       <h1 className="section-heading">Our Team</h1>
       <div className="team-cards">
-        {/* Nikhil */}
+        {/* Nitish */}
         <figure class="snip1515">
           <div class="profile-image">
-            <img src={nikhil} alt="nikhil" />
+            <img src={nitish} alt="nitish" />
           </div>
           <figcaption>
-            <h3>Nikhil Raj</h3>
+            <h3>Nitish Raj</h3>
             <h4>Founder</h4>
             <div class="icons">
-              <a
-                target="__blank"
-                href="https://www.linkedin.com/in/nikhil-raj-349265181/"
-              >
-                {" "}
-                <FontAwesomeIcon className="linkedin" icon={faLinkedin} />{" "}
-              </a>
-            </div>
-          </figcaption>
-        </figure>
-        {/* Narendra */}
-        <figure class="snip1515">
-          <div class="profile-image">
-            <img src={narendra} alt="narendra" />
-          </div>
-          <figcaption>
-            <h3>Narendra Kajla</h3>
-            <h4>Web Developer & Tutor</h4>
-            <div class="icons">
-              <a
-                target="__blank"
-                href="https://www.linkedin.com/in/narendrakajla77/"
-              >
-                {" "}
-                <FontAwesomeIcon className="linkedin" icon={faLinkedin} />{" "}
-              </a>
+              <FontAwesomeIcon className="linkedin" icon={faLinkedin} />{" "}
             </div>
           </figcaption>
         </figure>
@@ -110,6 +87,45 @@ export default function About() {
             </div>
           </figcaption>
         </figure>
+        {/* Yash */}
+        <figure class="snip1515">
+          <div class="profile-image">
+            <img src={yash} alt="yash" />
+          </div>
+          <figcaption>
+            <h3>Yashvardhan C N</h3>
+            <h4>Frontend Developer & Tutor</h4>
+            <div class="icons">
+              <a
+                target="__blank"
+                href="https://www.linkedin.com/in/yashvardhancn/"
+              >
+                {" "}
+                <FontAwesomeIcon className="linkedin" icon={faLinkedin} />{" "}
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        {/* Narendra */}
+        <figure class="snip1515">
+          <div class="profile-image">
+            <img src={narendra} alt="narendra" />
+          </div>
+          <figcaption>
+            <h3>Narendra Kajla</h3>
+            <h4>Frontend Developer</h4>
+            <div class="icons">
+              <a
+                target="__blank"
+                href="https://www.linkedin.com/in/narendrakajla77/"
+              >
+                {" "}
+                <FontAwesomeIcon className="linkedin" icon={faLinkedin} />{" "}
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+
         {/* Kushal */}
         <figure class="snip1515">
           <div class="profile-image">
